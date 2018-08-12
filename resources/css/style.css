@@ -1,3 +1,19 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 1.4;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -6,10 +22,185 @@ header {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
   height: 32px;
   flex-grow: 1
 }
 
+.brand span {
+  font-size: 20px;
+}
+
 nav a {
-  
+
+}
+
+.first {
+  display: flex;
+  justify-content: flex-start;
+  background-color: lightgrey;
+}
+
+.first img {
+  width: 60%;
+  height: auto;
+  margin: 32px 24px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 200px;
+}
+
+.cta span {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+#information {
+  display: flex;
+}
+
+.information-main {
+  padding: 32px 24px;
+  width: 60%;
+  border-right: 1px solid lightgrey;
+}
+
+.information-main img {
+  width: 100%;
+}
+
+.information-main h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.information-main p {
+  padding-bottom: 32px;
+}
+
+.information-main span {
+  font-size: 12px;
+}
+
+.information-other {
+  width: 40%;
+  padding-top: 16px;
+}
+
+.item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.item-image {
+  width: 35%;
+  padding: 16px 16px;
+}
+
+.item-image img {
+  width: 100%;
+  height: auto;
+}
+
+.item-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.item-text span {
+  margin: 8px 0;
+}
+
+#learning {
+  padding: 32px 56px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#learning h1 {
+  padding-bottom: 16px;
+}
+
+.course {
+  background-color: white;
+  margin: 16px 16px;
+  width: 532px;
+}
+
+.course-text {
+  margin: 16px;
+}
+
+.course-text h2 {
+  padding-bottom: 8px;
+}
+
+.course-text p {
+  padding-bottom: 8px;
+}
+
+
+#thesis {
+  padding: 32px 0;
+  text-align: center;
+}
+
+#thesis h1 {
+  padding-bottom: 32px;
+}
+
+#thesis-container {
+  display: flex;
+}
+
+#thesis-main {
+  width: 60%;
+  padding: 0 24px 24px 24px;;
+  text-align: left;
+}
+
+#thesis-main video {
+  width: 100%;
+  height: auto;
+}
+
+#thesis-other {
+  width: 40%;
+}
+
+.fisma {
+  background-color: lightgrey;
+}
+
+footer {
+  border-top: 1px solid lightgrey;
+  padding: 16px 24px;
+  display: flex;
+}
+
+footer span {
+  padding-left: 24px;
+}
+
+#copy {
+  flex-grow: 1;
 }
