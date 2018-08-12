@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0 24px;
+}
+
+.brand {
+  height: 32px;
+  flex-grow: 1
+}
+
+nav a {
+  
+}
