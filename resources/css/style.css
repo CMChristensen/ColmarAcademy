@@ -20,6 +20,17 @@ h2 {
   font-weight: 500;
 }
 
+
+i {
+  padding-right: 8px;
+}
+
+.white {
+  color: black;
+}
+
+
+
 header .container {
   display: flex;
   justify-content: space-between;
@@ -420,6 +431,10 @@ footer span {
 
     #web-footer {
       display: none;
+    }
+
+    .white {
+      color: white;
     }
 }
 
